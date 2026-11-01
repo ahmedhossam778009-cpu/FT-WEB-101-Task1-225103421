@@ -1,0 +1,54 @@
+:root {
+    --primary-color: darkslateblue;
+    --background-color: cornsilk;
+    --text-color: black;
+    --card-color: white;
+}
+body.dark {
+    --background-color: #18181b;
+    --text-color: #f4f4f5;
+    --primary-color: #27272a;
+    --card-color: #27272a;
+}
+body{
+    color : var(--text-color);
+    background-color: var(--background-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+   text-decoration: none;
+   color: white;
+   margin-left: 15px;
+}
+div.cards{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    flex:1;
+    padding: 20px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: var(--card-color);
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+section{
+    margin: 20px;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+}
