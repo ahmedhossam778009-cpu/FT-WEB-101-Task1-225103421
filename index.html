@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <!--
+     Name: Ahmed Hossam Elsayed Sayed Ahmed
+     ID: 225103421
+     -->
+<html>
+    <head>
+        <title>Profile Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Ahmed Hossam</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <img src="images/me.jpg" alt="A Photo of Ahmed">
+            <section id="about">
+                <h2>About me</h2>
+                 <p>Hello I am Ahmed, a Software Engineering student.</p>
+            </section>
+            <section id="skills">
+                <h2>My Skills</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>C#</h3>
+                    <p>I am learning C# programming.</p>
+                </div>
+                 
+               <div class="card">
+                  <h3>OOP</h3>
+                  <p>I am learning Object-Oriented Programming.</p>
+               </div>
+
+                <div class="card">
+                    <h3>Data Structures</h3>
+                    <p>I am practicing Data Structures and Algorithms.</p>
+                </div>
+            </div>
+            </section>
+            <section id="contact">
+                <h2>Contact me</h2>
+                    <form>
+                        <label for="name">
+                            Name
+                        </label>
+                        <input type="text" id="name"/>
+
+                        <label  for="email">
+                            Email
+                        </label>
+                        <input type="email" id="email"/>
+                        <button type="submit"> Send </button>
+                    </form>
+            </section>
+            <button type="button" id="theme-toggle">
+              Toggle Dark Mode
+            </button>
+        </main>
+        <footer>
+            <p>© 2026 Ahmed Hossam. All rights reserved.</p>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
